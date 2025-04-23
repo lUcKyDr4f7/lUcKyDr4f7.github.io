@@ -26,10 +26,10 @@ botaoMp.addEventListener('click', () => {
 });
 // Botão Contatos
 botaoNc.addEventListener('click', () => {
-   window.scroll({top:1250, behavior: "smooth"});
+   window.scroll({top:3400, behavior: "smooth"});
 });
 botaoMc.addEventListener('click', () => {
-   window.scroll({top:1250, behavior: "smooth"});
+   window.scroll({top:3400, behavior: "smooth"});
 });
 // Botão Início da Página
 botaol.addEventListener('click', () => {
