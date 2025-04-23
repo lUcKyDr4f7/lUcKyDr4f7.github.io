@@ -1,0 +1,35 @@
+@media (max-width: 752px){
+    header .btn-menu-mob{
+        display: block;
+       }
+       header ul.menu-nav li a{
+        display: none;
+       } 
+       header ul.menu-nav {
+        display: none;
+        padding: 0;
+       }     
+       header .menu-mobile {
+        display: block;    
+       } 
+       .topoC{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        gap: 25px;
+        font-size: 24px;
+        }
+        .banner2{
+           height: 148vh; 
+        }
+    
+}
+@media (min-width: 736px){
+    .menu-mobile.active{
+        display: none;
+    }
+    .menu-mobile.rolagem{
+        display: none;
+    }
+}
